@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: django-admin
+    name: inventory-management
     runtime: python
     buildCommand: |
       pip install -r requirements.txt
