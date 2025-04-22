@@ -22,7 +22,8 @@ if RENDER_EXTERNAL_HOSTNAME:
 ALLOWED_HOSTS.extend([
     NEON_DB_DOMAIN,
     'localhost',
-    '127.0.0.1'
+    '127.0.0.1',
+    '13.61.178.168'
 ])
 
 CSRF_TRUSTED_ORIGINS = []
