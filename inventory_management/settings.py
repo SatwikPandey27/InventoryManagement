@@ -33,6 +33,7 @@ CSRF_TRUSTED_ORIGINS.extend([
     f'https://{NEON_DB_DOMAIN}',
     'http://localhost',
     'http://127.0.0.1'
+    'http://13.61.178.168'
 ])
 
 # Security configuration
